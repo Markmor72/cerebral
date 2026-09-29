@@ -1,0 +1,22 @@
+{
+    "name": "cerebral",
+    "version": "0.1.0",
+    "description": "Sensor de pulso KY-039 para micro:bit: señal filtrada, detección de latidos, BPM e intervalos RR",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "ky039.ts",
+        "ky039-dsp.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
